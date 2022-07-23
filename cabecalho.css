@@ -1,0 +1,35 @@
+.corpo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: cadetblue;
+}
+
+.cabecalho {
+    grid-column: span 4;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho-navegacao{
+    margin-bottom: 1.5rem;
+}
+
+.nav-item{
+    display: inline-block;
+    margin: 0 0 0 1rem;
+}
+
+.cabecalho-logo{
+    width: 100px;
+    padding: 1.5rem;
+}
+
+.cabecalho-titulo{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
