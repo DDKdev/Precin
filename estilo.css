@@ -3,7 +3,7 @@ body {
 }
 
 .cabecalho{
-    background-color: rgb(183, 241, 243);
+    background-color: rgb(73, 11, 73);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,8 +21,95 @@ body {
 }
 .menu__item a{
     text-decoration: none;
-    color: black;
+    color: yellow;
     font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.container {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.principal {
+    background-color: rgb(151, 35, 151);;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.principal__titulo{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.principal__texto {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.principal__botao {
+    background-color: rgb(73, 11, 73);
+    border-color: aliceblue;
+    color: yellow;
+    font-size: 2rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.rodape{
+    background-color: rgb(73, 11, 73);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape__navegacao{
+    margin-bottom: 1.5rem;
+}
+.rodape__logo{
+    width: 110px;
+    padding: 1rem 1rem .5rem 1rem;
+}
+
+.rodape__texto{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.rodape__lista{
+    display: flex;
+    flex-direction: row;
+}
+
+.rodape__item{
+    display: inline;
+    margin: 0 .5rem 0 .5rem;
+}
+
+.rodape__item a{
+    color: yellow;
+    text-decoration: none;
+    font-size: 1.4rem;
 }
 
 @media screen and (min-width: 840px) {
