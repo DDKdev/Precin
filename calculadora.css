@@ -1,0 +1,13 @@
+.caixa {
+    background-color: aquamarine;
+    height: 80%;
+    width: 80%;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.formulario label {
+    display: flex;
+    margin-bottom: .2rem;
+    margin-top: 0.5rem;
+}
