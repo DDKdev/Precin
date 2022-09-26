@@ -32,7 +32,7 @@ body {
 }
 
 .principal {
-    background-color: rgb(151, 35, 151);;
+    background-color: rgb(151, 35, 151);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -110,6 +110,67 @@ body {
     color: yellow;
     text-decoration: none;
     font-size: 1.4rem;
+}
+
+.principal__institucional {
+    background-color: rgb(151, 35, 151);
+    display: flex;
+    justify-content: center;
+}
+
+.principal__address {
+    text-align: center;
+}
+
+.titulo__institucional{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.endereco_institucional {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.institucional__contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 0 0 2rem 0;
+    margin-bottom: 2rem;
+    border: solid 2px white;
+}
+.subtitulo__institucional {
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 700;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+.institucional__contato-telefone, .institucional__contato-email {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.institucional__contato-email {
+    padding: 1rem;
+}
+
+.ou {
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 840px) {

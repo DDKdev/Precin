@@ -17,5 +17,6 @@ rodapé:
 
 - crias página de planos
 - criar página de formulário
+- melhoras página da calculadora
 
 
